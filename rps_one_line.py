@@ -1,0 +1,3 @@
+#user + computer = result->only takes first letter
+while True: (lambda user = input("Choose Rock, Paper, Scissor, or other to end game: ").lower()[0], computer = __import__('random').choice(["r", "p", "s"]), combos = {"won": ['rs', 'pr', 'sp'], "tie": ['rr', 'pp', 'ss'], 'lost': ['sr', 'rp', 'ps']}:(print('you won') if (user+computer) in combos['won'] else (print('you lost') if (user+computer) in combos['lost'] else (print('you tied') if (user + computer) in combos['tie'] else print("Game ended, good game")))))()
+                                                                                                                                  
