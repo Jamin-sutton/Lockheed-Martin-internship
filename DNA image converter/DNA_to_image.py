@@ -57,6 +57,7 @@ def length_width(pix):
     new_pix.append(pix[i:i+lw])
     
   return new_pix
+
 def make_image(pixels, name='new'):
   # Convert the pixels into an array using numpy
   array = np.array(pixels, dtype=np.uint8)
@@ -87,6 +88,7 @@ if __name__ == "__main__":
   make_image(avg_pixel_val(pixels), name='singular')
   #length_width transforms list into 2D list of tuples
   pixels = length_width(pixels)
-  make_image(pixels)
+  new_file_name = input("Enter new name for image file: ")
+  make_image(pixels, new_file_name)
 
 
