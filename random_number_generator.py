@@ -38,21 +38,3 @@ for i in range(10):
   print('number of ' + str(i) + ': ' + str(test.count(i)))
   print('percent: ' + str(round((test.count(i)/1000)*100, 3)) + '%')
   
-# def make_num(max):
-#   length = len(str(max))
-#   num = ''
-#   for i in range(length):
-#     num += random()
-#   while num[0] == '0':
-#     num = num[1:]
-#   return num
-
-# def randint(min, max):
-#   num = make_num(max)
-#   while int(num) > max or int(num) < min:
-#     num = make_num(max)
-
-#   return int(num)
-
-# for i in range(100):
-#   print(randint(10, 1000))
